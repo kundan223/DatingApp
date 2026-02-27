@@ -1,43 +1,81 @@
-DTU Dating & Friendship Platform
+# 💕 DTU Dating & Friendship Platform
 
-This is a Next.js project built by DTU students Himanshi and Kundan.
+A modern dating and friendship platform built for DTU students to connect, vibe, and enjoy college fests with better company.
 
-It is a dating and friendship platform designed to help students connect and enjoy college fests with better company.
+Built with ❤️ by  
+GitHub: https://github.com/kundan223  
+Kundan & Himanshu  
 
-How to Set Up the Project
+---
 
-Follow these steps to run the project locally:
+## 🚀 Tech Stack
 
-Set Up Python Environment (if backend is included)
+- Frontend: Next.js  
+- Backend Service: Supabase  
+- Database & Auth: Supabase  
+- Styling: (Add Tailwind CSS if you are using it)
 
-Create a virtual environment:
+---
 
-python -m venv venv
+## 📦 Project Setup Guide
 
-Activate it:
+Follow the steps below to run the project locally.
 
-For Windows (PowerShell):
-.\venv\Scripts\Activate
+### 1️⃣ Clone the Repository
 
-For Mac/Linux:
-source venv/bin/activate
-
-Clone the Repository
-
-git clone <repository-url>
+git clone <repository-url>  
 cd <repository-folder>
 
-Install Dependencies
+---
 
-Go to the Next.js app folder:
+### 2️⃣ Setup Environment Variables
 
-cd my-app
-npm install
+Create a `.env.local` file inside the `my-app` folder and add:
 
-Run the Development Server
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url  
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key  
 
-npm run dev
+You can get these from your Supabase project dashboard.
 
-Now open your browser and visit:
+---
 
-http://localhost:3000
+### 3️⃣ Install Dependencies
+
+cd my-app  
+npm install  
+
+---
+
+### 4️⃣ Run the Development Server
+
+npm run dev  
+
+Open your browser and visit:
+
+http://localhost:3000  
+
+---
+
+## 🔐 Backend
+
+We are using Supabase as our backend service for:
+
+- Authentication  
+- Database  
+- Real-time features  
+- Storage (if required)
+
+---
+
+## 🎯 Purpose
+
+This platform is designed to help DTU students:
+
+- Meet new people  
+- Find fest partners  
+- Build friendships  
+- Create meaningful campus connections  
+
+---
+
+Made with ambition at DTU 🚀
