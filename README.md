@@ -4,7 +4,7 @@ This is a Next.js project built by DTU students Himanshi and Kundan.
 
 It is a dating and friendship platform designed to help students connect and enjoy college fests with better company.
 
-How to Set Up the Project
+How to Set Up the Project.
 
 Follow these steps to run the project locally:
 
